@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Object Constructors</h2>
+<p id="demo"></p>
+
+<script>
+// Constructor function for Person objects
+function Person(name, id, mail, marks) {
+    this.name = name;
+    this.id = id;
+    this.mail=mail;
+    this.marks=marks;
+}
+var p1 = new Person("Paul", "5L7", "Preethampaul369@gmail.com", 72.5);
+document.getElementById("demo").innerHTML =" ......."+p1.name + " " + p1.id + " "+p1.mail+" "+p1.marks+" ......"; 
+</script>
+
+</body>
+</html>
